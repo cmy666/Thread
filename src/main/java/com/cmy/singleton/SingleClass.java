@@ -16,6 +16,7 @@ public class SingleClass {
      *                         执行结果的前提下，尽可能提高并行度(比如:将多条指令并行执行)
      *                         但在多线程的情况下指令重排就会给我们带来问题。
      *          (2)提供内存可见性
+     *                  可见性:强制从公共堆栈中取得变量的值，而不是线程私有的数据栈中取得变量的值.
      *
      */
     private static volatile SingleClass sc;
