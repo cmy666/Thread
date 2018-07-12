@@ -10,7 +10,7 @@ import java.util.List;
  *
  * 类ThreadLocal主要解决的就是每个线程绑定自己的值，可以将ThreadLocal类比喻成全局存放数据的盒子
  *
- * 盒子中可以存储每个线程的私有变量 在主线程中可以打印出对应线程的变量。
+ * 盒子中可以存储每个线程的私有变量 在主线程中可以打印出对应线程的变量
  */
 public class ThreadLocalDemo {
 
