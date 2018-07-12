@@ -11,7 +11,7 @@ public class LockConditionDemo {
     /**
      * Condition按字面意思理解就是条件
      * 当然，我们也可以将其认为是条件进行使用，这样的话我们可以通过上述的代码创建多个Condition条件，
-     * 我们就可以根据不同的条件来控制现成的等待和通知。
+     * 我们就可以根据不同的条件来控制现成的等待和通知
      * 而我们还知道，在使用关键字synchronized与wait()方法和notify()方式结合实现线程间通信的时候，
      * notify/notifyAll的通知等待的线程时是随机的，显然使用Condition相对灵活很多，可以实现”选择性通知”
      *
