@@ -20,7 +20,6 @@ public class SingleClass {
      *
      */
     private static volatile SingleClass sc;
-
     /**
      * 在创建sc实例的时候做了以下的三件事：
      *      (1) 为sc对象分配内存空间
