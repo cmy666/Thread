@@ -6,7 +6,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * Lock其实是一个接口，在JDK1.5以后开始提供，其实现类常用的有ReentrantLock，
+ * Lock其实是一个接口，在JDK1.5以后开始提供，其实现类常用的有ReentrantLock
  *
  * 这里所说的Lock对象即是只Lock接口的实现类，为了方便记忆或理解，都简称为Lock对象
  */
