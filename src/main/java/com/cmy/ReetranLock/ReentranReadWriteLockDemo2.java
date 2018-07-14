@@ -23,7 +23,7 @@ public class ReentranReadWriteLockDemo2 {
     public void write(){
         try {
             lock.writeLock().lock();
-            System.out.println("获取写锁:"+Thread.currentThread().getName()+"时间:"+System.currentTimeMillis());
+            System.out.println("获取写锁:"+Thread.currentThread().getName()+" 时间:"+System.currentTimeMillis());
             Thread.sleep(5000);//模拟写操作
         } catch (InterruptedException e) {
             e.printStackTrace();
