@@ -2,7 +2,7 @@ package com.cmy.ReetranLock;
 
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-//读写互斥/写读互斥 时间较久说明互斥
+//读写互斥/写读互斥 时间较久 说明互斥
 public class ReentranReadWriteLockDemo3 {
 
     private ReentrantReadWriteLock lock=new ReentrantReadWriteLock();
