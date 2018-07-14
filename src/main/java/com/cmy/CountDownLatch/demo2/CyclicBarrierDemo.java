@@ -14,7 +14,7 @@ import java.util.concurrent.CyclicBarrier;
  *
  * CountDownLatch的计数器只能使用一次。而CyclicBarrier的计数器可以使用reset() 方法重置。
  * 所以CyclicBarrier能处理更为复杂的业务场景，比如如果计算发生错误，
- * 可以重置计数器，并让线程们重新执行一次
+ * 可以重置计数器，并让线程们重新执行一次。
  */
 
 //龙珠案例:七位法师凑齐七颗龙珠召唤神龙
