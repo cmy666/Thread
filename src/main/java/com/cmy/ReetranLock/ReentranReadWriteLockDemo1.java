@@ -8,7 +8,7 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  *的任务。为了提高效率ReentranLock的升级版ReentranReadWriteLock应运而生。
  *
  *   ReentranReadWriteLock有两个锁:一个是读相关的锁，称为"共享锁"
- *                            一个是写相关的锁，称为"排他锁"。
+ *                            一个是写相关的锁，称为"排他锁"
  *
  *   也就是说多个读锁之间不互斥。 写锁与读锁互斥 写锁与写锁互斥
  *
